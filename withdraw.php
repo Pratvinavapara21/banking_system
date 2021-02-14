@@ -51,11 +51,11 @@ a{
 
 
 body{
-	background-color: PaleTurquoise;
+	background-color: skyblue;
 }
     body
     {
-    background-color : PaleTurquoise ;
+    background-color : skyblue ;
     </style>
 	</head>
 	<?php

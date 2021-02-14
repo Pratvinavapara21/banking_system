@@ -19,7 +19,7 @@
 
 	if($_SERVER['REQUEST_METHOD']=="POST")
 	{
-		date_default_timezone_set("Africa/Kampala");
+		date_default_timezone_set("India/Mumbai");
 		$amount=mysql_real_escape_string($_POST['amount']);
 
 		

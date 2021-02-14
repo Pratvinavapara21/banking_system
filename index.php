@@ -1,7 +1,6 @@
 <html>
 	<head>
 <script language='JavaScript' type='text/JavaScript'>
-//Made Nanzige Mahawuya
 first3=24;var fifteenth=0, sixteenth=0, seventeenth=0, eighteenth=0, nineteenth=1, twentieth=0, first2, second2;second3=first3+6; third3=first3+second3; fourth3=first3+second3+third3; fifth3=fourth3/third3*first3; sixth3=third3*first3/12*second3; seventh3=first3+second3/fifth3-16*fourth3; eighth3=sixth3*(first3-5)/third3+fourth3; ninth3=eighth3/seventh3+first3*third3-fourth3;tenth3=(ninth3+first3/third3*fourth3+second3*fifth3)/sixth3+eighth3-ninth3-1;eleventh3=Math.floor(tenth3)   ;twelfth3=eleventh3-60;
 function third2(value){ document.form1.fourth2.value = value; fifteenth = twelfth3, sixteenth    = twelfth3, seventeenth  = twelfth3, eighteenth = twelfth3; nineteenth  = 1; twentieth  = twelfth3;}
 function fifth2(sixth2){ first2 = 1; 
@@ -77,7 +76,6 @@ body{
 		
 		<button type="button" onclick="location.href='register.php'">REGISTER</button>
 		
-			<center><b>E-Banking &copy; <?php echo date("Y"); ?></b></center>
 	<html>
 <head>
   <link rel="stylesheet" type="text/css" href="clock_style.css">

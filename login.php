@@ -48,11 +48,11 @@ a{
 
 
 body{
-	background-color: PaleTurquoise;
+	background-color: greenyellow;
 }
     body
     {
-    background-color : PaleTurquoise     ;
+    background-color : greenyellow     ;
     </style>
 	</head>
 	<body>
