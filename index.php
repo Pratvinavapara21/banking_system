@@ -120,6 +120,30 @@ body{
 	</div>
 	</body>
 
+    <form name='form1'><CENTER><TABLE bgcolor='#430086'><TR><TD><TABLE BORDER=1 cellspacing=5 cellpadding=0 bgcolor='#004080'><TR align=center>	<TD colspan=5>
+    <input type='text' name='fourth2' value='0'></TD></TR><TR align=center>	<TD colspan=4><B><FONT COLOR='#FFFFFF'>Calculator</FONT></B></TD>	<TD >
+    <input type='button' name='C' value='  C  ' onclick="fifteenth3(11,'C')"></TD></TR><TR align=center>	<TD>
+    <input type='button' name='7' value='  7  '   onclick="fifteenth3(7 ,'')"></TD>	<TD>
+    <input type='button' name='8' value='  8  '   onclick="fifteenth3(8 ,'')"></TD>	<TD>
+    <input type='button' name='9' value='  9  '   onclick="fifteenth3(9 ,'')"></TD>	<TD>
+    <input type='button' name='/' value='  /  '   onclick="fifteenth3(11,'/')"></TD>	<TD>
+    <input type='button' name='sqrt' value='sqrt' onclick="fifteenth3(11,'sqrt')"></TD></TR><TR align=center>	<TD>
+    <input type='button' name='4' value='  4  ' onclick="fifteenth3(4,'')"></TD>	<TD>
+    <input type="button" name="5" value="  5  " onclick="fifteenth3(5,'')"></TD>	<TD><input type="button" name="6" value="  6  " onclick="fifteenth3(6,'')"></TD>	<TD>
+    <input type="button" name="*" value=" *  "  onclick="fifteenth3(11,'*')"></TD>	<TD>
+    <input type="button" name="exp" value="exp" onclick="fifteenth3(11,'exp')"></TD></TR><TR align=center>	<TD>
+    <input type="button" name="1" value="  1  "  onclick="fifteenth3(1,'')"></TD>	<TD>
+    <input type="button" name="2" value="  2  "  onclick="fifteenth3(2,'')"></TD>	<TD>
+    <input type="button" name="3" value="  3  "  onclick="fifteenth3(3,'')"></TD>	<TD>
+    <input type="button" name="-" value="  -  "  onclick="fifteenth3(11,'-')"></TD>	<TD>
+    <input type="button" name="1/x" value="1/x " onclick="fifteenth3(11,'1/x')"></TD></TR><TR align=center>	<TD>
+    <input type="button" name="0" value="  0  "   onclick="fifteenth3(0,'')"></TD>	<TD>
+    <input type="button" name="+/-" value=" +/- " onclick="fifteenth3(11,'+/-')"></TD>	<TD>
+    <input type="button" name="." value="  ,  "   onclick="fifteenth3(11,'.')"></TD>	<TD>
+    <input type="button" name="+" value="  +  "   onclick="fifteenth3(11,'+')"></TD>	<TD>
+    <input type="button" name="=" value="  =  "   onclick="fifteenth3(11,'=')"></TD></TR></TABLE></TD></TR></TABLE>
+</CENTER></form>
+
 </html>
 <html>
     <body>
