@@ -71,14 +71,14 @@ body{
 <?php
 	if($_SERVER["REQUEST_METHOD"]=="POST")
 	{
-		$username = mysql_real_escape_string($_POST['username']);
-		$password = mysql_real_escape_string($_POST['password']);
+		$username = $mysql_real_escape_string($_POST['username']);
+		$password = $mysql_real_escape_string($_POST['password']);
 		$bool=true;
 
-		mysql_connect("localhost","root","") or die(mysql_error());
-		mysql_select_db("ATM") or die("Cannot connect to database");
-		$query=mysql_query("SELECT * FROM users");	
-		while($row=mysql_fetch_array($query))
+		$mysql_connect("localhost","root","") or die($mysql_error());
+		$mysql_select_db("ATM") or die("Cannot connect to database");
+		$query=$mysql_query("SELECT * FROM users");	
+		while($row=$mysql_fetch_array($query))
 		{
 			$table_user=$row['username'];
 			if($username==$table_user)
@@ -90,7 +90,7 @@ body{
 		}
 		if($bool)
 		{
-			mysql_query("INSERT INTO users (username,password) VALUES ('$username','$password')");
+			$mysql_query("INSERT INTO users (username,password) VALUES ('$username','$password')");
 			Print '<script>alert("Successfully Registered! ");</script>';
 			Print '<script>window.location.assign("index.php");</script>';
 		}

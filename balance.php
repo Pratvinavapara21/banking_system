@@ -67,11 +67,11 @@ body{
 		<a href="home.php" >Click Here to Go Back.</a><br/>
 		<br/><br/>
 		<?php 
-			mysql_connect("localhost","root","") or die(mysql_error());
-			mysql_select_db("ATM") or die("Cannot connect to database");
+			$mysql_connect("localhost","root","") or die($mysql_error());
+			$mysql_select_db("ATM") or die("Cannot connect to database");
 			$balance=0.00;
-			$query=mysql_query("SELECT * from Passbook WHERE user='$user'");
-			while($row=mysql_fetch_array($query))
+			$query=$mysql_query("SELECT * from Passbook WHERE user='$user'");
+			while($row=$mysql_fetch_array($query))
 			{
 				$balance= $balance + $row['amount'];
 			}
