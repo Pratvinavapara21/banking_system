@@ -52,7 +52,7 @@ body{
 }
     body
     {
-    background-color : greenyellow     ;
+    background-color : greenyellow;
     </style>
 	</head>
 	<body>
